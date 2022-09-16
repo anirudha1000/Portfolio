@@ -1,0 +1,88 @@
+@media only screen and (max-width:600px) {
+    .nav{
+        display: flex;    
+        width: 40%;
+    }
+    header img,Header,.overlay-1,.overlay-2{
+        height:600px;
+    }
+    #content-1{
+        position: absolute;
+        color: white;
+        text-align: center;
+        top: 19%;
+        left: 0;
+    }
+    #content-1 h1{
+        font-size: 60px;
+    }
+    #content-1 h2{
+        font-size: 25px;
+        color:var(--primary);
+    }
+    #content-1 p{
+        font-size: 15px;
+    }
+    .profile{
+        flex-direction: column;
+        
+    }   
+    .info{
+        list-style-type: none;
+        line-height: 45px;
+        margin: 1rem;
+    }
+    .skill-bar{
+        list-style-type: none;
+         width: 100%;
+         padding: 0 1rem;
+         box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+     } 
+    .resume .content .flex div{
+            margin-top: 2rem;
+     }
+     .resume .content .flex h1{
+        font-size: 45px;
+        padding-bottom: 1rem;
+     }
+     .resume .content .flex hr{
+        margin-top: 3rem;
+ }
+    .flex{
+        display: inline;
+    }
+    
+    .set{
+        height: fit-content;
+        margin-top: 1rem;
+        padding: 0;
+    }
+    .set .flex div{
+        width: fit-content;
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    .set .flex div img{
+        transition:  width 1s;
+        width: 60%;
+        
+        
+    }
+    .set .flex div img:hover{
+        margin-top: 0;
+        width: 70%;
+    }
+    #contact-us .form{
+        margin-top: 1rem;
+        padding: 0 2rem;
+        z-index: -1;
+
+    }
+    .text--area{
+        width: 420px !important;
+        height: 20  0px !important;
+    }
+    .social{
+            width: 50%;
+    }
+}
